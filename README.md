@@ -14,7 +14,10 @@
 mvn spring-boot:run
 ```
 
-启动后访问 http://localhost:8080/hello 即可看到 `Hello, Spring Boot!`。
+启动后可访问以下接口：
+
+- http://localhost:8080/hello —— 返回 `Hello, Spring Boot!`
+- http://localhost:8080/test —— 测试接口，返回 JSON（`status` / `message` / `timestamp`）
 
 ## 构建
 
